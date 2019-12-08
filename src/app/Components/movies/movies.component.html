@@ -1,0 +1,19 @@
+<!--
+  The page class div acts as the main holder for the page contents
+  This is the movies page of the website
+-->
+<div class="page">
+    <!--The navbar is the first item to be shown-->
+    <app-nav-bar></app-nav-bar>
+    <!--The main area will hold all of the display cards-->
+    <div class="mainArea">
+        <!--Display movies from the database-->
+        <div class="card" *ngFor="let movie of movies | async">
+          <!--Image of the movie-->
+          
+          <div class="info">
+              <!--Popup info about the movie-->
+              {{movie.original_title}}
+          </div>
+    </div>
+</div>

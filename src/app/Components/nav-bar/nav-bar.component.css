@@ -1,0 +1,25 @@
+div {
+    height: 1.95em;
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+}
+
+a {
+    display: inline-block;
+    background-color: green;
+    font-size: larger;
+    width: 6em;
+    height: 1.5em;
+    padding-top: 0.1em;
+    margin-left: 1em;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: darkgreen;
+}

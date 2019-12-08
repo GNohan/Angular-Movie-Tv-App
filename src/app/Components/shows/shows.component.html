@@ -1,0 +1,19 @@
+<!--
+  The page class div acts as the main holder for the page contents
+  This is the tv shows page of the website
+-->
+<div class="page">
+    <!--The navbar is the first item to be shown-->
+    <app-nav-bar></app-nav-bar>
+    <!--The main area will hold all of the display cards-->
+    <div class="mainArea">
+        <!--Display tv shows from the database-->
+        <div *ngFor="let show of shows | async" class="why">
+          <!--Image of the movie-->
+          <div class="info">
+              <!--Popup info about the show-->
+              {{show.original_name}}
+          </div>
+      </div>
+    </div>
+</div>

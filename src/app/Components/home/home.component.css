@@ -1,0 +1,11 @@
+.card {
+    position: absolute;
+    left: 25%;
+    bottom: 40%;
+}
+
+.why{
+    position: absolute;
+    right: 25%;
+    bottom: 40%;
+}
